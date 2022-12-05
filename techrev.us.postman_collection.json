@@ -1,0 +1,274 @@
+{
+	"info": {
+		"_postman_id": "bb4617a3-b5da-4968-a08b-2789452601b6",
+		"name": "techrev.us",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20815799"
+	},
+	"item": [
+		{
+			"name": "create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstName",
+							"value": "parimal",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "maske",
+							"type": "text"
+						},
+						{
+							"key": "userName",
+							"value": "pari123",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "pari@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "8275321454",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "31-01-1997",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Pari@12345",
+							"type": "text"
+						},
+						{
+							"key": "confirmPassword",
+							"value": "Pari@12345",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/DELL/Downloads/memories.png"
+						},
+						{
+							"key": "address[landmark]",
+							"value": "tulsi nagar khat road",
+							"type": "text"
+						},
+						{
+							"key": "address[city]",
+							"value": "bhandara",
+							"type": "text"
+						},
+						{
+							"key": "address[state]",
+							"value": "maharashtra",
+							"type": "text"
+						},
+						{
+							"key": "address[country]",
+							"value": "india",
+							"type": "text"
+						},
+						{
+							"key": "address[zipcode]",
+							"value": "441904",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/createCustomer",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"createCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get user list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/selectCustomers",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"selectCustomers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get user by ID",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/selectCustomerById",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"selectCustomerById"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/deleteCustomer",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"deleteCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstName",
+							"value": "anshul",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "lastName",
+							"value": "Jha",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "userName",
+							"value": "p12345",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "rnishant428@gmail.com",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "phone",
+							"value": "9891416215",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "dob",
+							"value": "31-01-1997",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "Male",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "password",
+							"value": "Nishant@12345",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "confirmPassword",
+							"value": "Nishant@12345",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "address[landmark]",
+							"value": " Graveyard no.2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "address[city]",
+							"value": "Old Delhi",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "address[state]",
+							"value": "Dilli",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "address[country]",
+							"value": "Bharat",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "address[zipcode]",
+							"value": "100452",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000/updateCustomer",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"updateCustomer"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

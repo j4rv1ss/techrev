@@ -1,0 +1,58 @@
+body{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px;
+    border: 7px solid black;
+    width: 95%;
+    height: 90vh;
+    
+}
+
+header{
+    border: 2px solid white;
+    background-color: rgb(218, 26, 26);
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.logobox{
+   
+    display: inline-block;
+    width: 150px;
+    color: white;
+    font-size: larger;
+    font-weight: 600px; 
+}
+
+.navbox{
+  
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+   right: 40px;
+}
+
+.navbox > a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.search{
+    border: 2px solid black;
+    height: 806px;
+    width: 500px;
+    position: absolute;
+    background-color: rgb(247, 230, 229);
+}
+
+.search > button {
+   margin-left: 20px;
+   margin-top: 10px;
+   
+
+
+}
